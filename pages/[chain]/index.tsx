@@ -179,7 +179,7 @@ const IndexPage: NextPage<Props> = ({ ssr }) => {
             </Flex>
           </Flex>
           <Text style="body1" color="subtle" css={{ mb: 48 }}>
-            Multi-Chain Marketplace, powered by dRFD
+            Multi-Chain Marketplace, powered by CC
           </Text>
         </Flex>
         <Flex css={{ my: '$6', gap: 65 }} direction="column">

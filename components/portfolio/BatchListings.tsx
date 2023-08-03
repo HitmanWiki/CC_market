@@ -64,9 +64,9 @@ const MINIMUM_AMOUNT = 0.000001
 
 const marketplaces = [
   {
-    name: 'dRFD',
-    imageUrl: 'https://www.decentralizedrefund.com/wp-content/uploads/2023/06/logo60.png',
-    orderbook: 'dRFD',
+    name: 'CC',
+    imageUrl: 'https://www.cryptocoin.lol/img/cclogo.png',
+    orderbook: 'CC',
     orderKind: 'seaport-v1.4',
   },
   {

@@ -50,7 +50,7 @@ const { chains, publicClient } = configureChains(supportedChains, [
 ])
 
 const { connectors } = getDefaultWallets({
-  appName: 'dRFD Marketplace',
+  appName: 'CC Marketplace',
   chains,
 })
 

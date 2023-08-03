@@ -38,31 +38,31 @@ class MyDocument extends Document {
           href="/logo60.png"
         />
 
-        {/* dRFD meta tags */}
-        <meta property="dRFD:title" content="dRFD Market" />
-        <meta property="dRFD:icon" content="/dRFD-source-icon.png" />
+        {/* CC meta tags */}
+        <meta property="CC:title" content="CC Market" />
+        <meta property="CC:icon" content="/CC-source-icon.png" />
         <meta
-          property="dRFD:token-url-mainnet"
+          property="CC:token-url-mainnet"
           content="/ethereum/asset/${contract}:${tokenId}"
         />
         <meta
-          property="dRFD:token-url-goerli"
+          property="CC:token-url-goerli"
           content="/goerli/asset/${contract}:${tokenId}"
         />
         <meta
-          property="dRFD:token-url-polygon"
+          property="CC:token-url-polygon"
           content="/polygon/asset/${contract}:${tokenId}"
         />
         <meta
-          property="dRFD:token-url-arbitrum"
+          property="CC:token-url-arbitrum"
           content="/arbitrum/asset/${contract}:${tokenId}"
         />
         <meta
-          property="dRFD:token-url-optimism"
+          property="CC:token-url-optimism"
           content="/optimism/asset/${contract}:${tokenId}"
         />
         <meta
-          property="dRFD:token-url-zora"
+          property="CC:token-url-zora"
           content="/zora/asset/${contract}:${tokenId}"
         />
         <body>

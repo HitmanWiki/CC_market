@@ -64,7 +64,7 @@ const HamburgerMenu = () => {
                 src="/logo60.png"
                 width={34}
                 height={39}
-                alt="dRFD"
+                alt="CC"
               />
             </Box>
           </Link>

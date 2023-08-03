@@ -32,8 +32,8 @@ const SectionLink: FC<SectionLinkProps> = ({ name, href }) => (
 
  const developerSectionLinks = [
    {
-    name: 'About DRFD',
-    href: 'https://www.decentralizedrefund.com',
+    name: 'About Crypto Coin',
+    href: 'https://www.cryptocoin.lol/',
   },
   {
     name: 'Buy Now',
@@ -41,7 +41,7 @@ const SectionLink: FC<SectionLinkProps> = ({ name, href }) => (
   },
   {
     name: 'Contract',
-    href: 'https://etherscan.io/token/0x795598ac0b73cd43b641565161cdf401cfd4d02e',
+    href: 'https://etherscan.io/token/0x28acfe1bd2f4ebb781582d89c7616d713d4e4ec0',
  },
 ]
 
@@ -79,7 +79,7 @@ export const Footer = () => {
     >
       <Flex css={{ gap: 80, '@bp600': { gap: 136 } }}>
         <Flex direction="column">
-          <SectionTitle title="dRFD Token" />
+          <SectionTitle title="CC Token" />
           {developerSectionLinks.map((props) => (
             <SectionLink key={props.name} {...props} />
           ))}
@@ -95,7 +95,7 @@ export const Footer = () => {
         direction="column"
         css={{ alignItems: 'flex-start', '@bp600': { alignItems: 'flex-end' } }}
       >
-        <SectionTitle title="Join DRFD Community" />
+        <SectionTitle title="Join CC Community" />
         <Flex css={{ gap: '$4', mt: 16 }}>
           <a
             target="_blank"

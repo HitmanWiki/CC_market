@@ -65,7 +65,7 @@ const Navbar = () => {
                 src="/logo60.png"
                 width={34}
                 height={39}
-                alt="dRFD"
+                alt="CC"
               />
             </Box>
           </Link>
@@ -105,14 +105,14 @@ const Navbar = () => {
                   src="/logo60.png"
                   width={112}
                   height={36}
-                  alt="dRFD"
+                  alt="CC"
                 />
               ) : (
                 <Image
                   src="/logo60.png"
                   width={112}
                   height={36}
-                  alt="dRFD"
+                  alt="CC"
                 />
               )}
             </Box>

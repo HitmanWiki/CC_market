@@ -73,7 +73,7 @@ const BuyNow: FC<Props> = ({
       collectionId={collectionId}
       orderId={orderId}
       //CONFIGURABLE: set any fees on top of orders, note that these will only
-      // apply to native orders (using the dRFD order book) and not to external orders (opensea, blur etc)
+      // apply to native orders (using the CC order book) and not to external orders (opensea, blur etc)
       // Refer to our docs for more info: https://docs.reservoir.tools/reference/sweepmodal-1
        feesOnTopBps={["0xE1F1261b132E11F6b31B4006fF88e811642f8714:50"]}
       onClose={(data, stepData, currentStep) => {
