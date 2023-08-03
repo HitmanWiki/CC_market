@@ -43,7 +43,7 @@ export const TokenInfo: FC<Props> = ({ token, collection }) => {
     height: 40,
     alignItems: 'center',
     '&:hover': {
-      background: '$gray4',
+      background: '#f1c232',
     },
   })
 

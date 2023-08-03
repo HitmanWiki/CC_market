@@ -47,7 +47,7 @@ const StyledContent = styled(SelectPrimitive.Content, {
   color: '$textColor',
   borderRadius: 8,
   overflow: 'hidden',
-  $$focusColor: '$gray4',
+  $$focusColor: '#f1c232',
   boxShadow: '0 0 0 2px $$focusColor',
 })
 
@@ -106,7 +106,7 @@ const StyledItem = styled(SelectPrimitive.Item, {
   letterSpacing: 0,
 
   '&:hover': {
-    background: '$gray4',
+    background: '#f1c232',
   },
 })
 

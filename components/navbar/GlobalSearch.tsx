@@ -62,7 +62,7 @@ const CollectionItem: FC<Props> = ({ collection, handleSelectResult }) => {
           gap: '$3',
           cursor: 'pointer',
           '&:hover': {
-            background: '$gray4',
+            background: '#f1c232',
           },
           minWidth: 0,
           width: '100%',
@@ -137,7 +137,7 @@ const WalletItem: FC<WalletItemProps> = ({ wallet }) => {
           p: '$2',
           gap: '$4',
           '&:hover': {
-            background: '$gray4',
+            background: '#f1c232',
           },
         }}
         align="center"
@@ -330,7 +330,7 @@ const GlobalSearch = forwardRef<
           pl: isMobile ? 80 : 48,
           backgroundColor: isMobile ? 'transparent' : '',
           borderRadius: isMobile ? '$0' : '',
-          borderBottom: isMobile ? '1px solid $gray4' : '',
+          borderBottom: isMobile ? '1px solid #f1c232' : '',
           pb: isMobile ? '24px' : '',
           $$focusColor: isMobile && 'none',
           '&[placeholder]': {

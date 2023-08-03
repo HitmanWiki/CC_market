@@ -24,7 +24,7 @@ const LoadingCard = () => {
       }}
     >
       <Flex
-        css={{ background: '$gray4', p: '$4', height: 132 }}
+        css={{ background: '#f1c232', p: '$4', height: 132 }}
         direction="column"
       >
         <Flex

@@ -53,7 +53,7 @@ const HamburgerMenu = () => {
             py: '$4',
             px: '$4',
             width: '100%',
-            borderBottom: '1px solid $gray4',
+            borderBottom: '1px solid #f1c232',
           }}
           align="center"
           justify="between"
@@ -79,7 +79,7 @@ const HamburgerMenu = () => {
                 backgroundColor: '$gray3',
                 color: '$gray12',
                 '&:hover': {
-                  backgroundColor: '$gray4',
+                  backgroundColor: '#f1c232',
                 },
               }}
             >
@@ -125,7 +125,7 @@ const HamburgerMenu = () => {
               <Text
                 style="subtitle1"
                 css={{
-                  borderBottom: '1px solid $gray4',
+                  borderBottom: '1px solid #f1c232',
                   cursor: 'pointer',
                   pb: '$4',
                   pt: '24px',
@@ -138,7 +138,7 @@ const HamburgerMenu = () => {
               <Text
                 style="subtitle1"
                 css={{
-                  borderBottom: '1px solid $gray4',
+                  borderBottom: '1px solid #f1c232',
                   cursor: 'pointer',
                   pb: '$4',
                   pt: '24px',
@@ -151,7 +151,7 @@ const HamburgerMenu = () => {
               <Flex
                 direction="column"
                 css={{
-                  borderBottom: '1px solid $gray4',
+                  borderBottom: '1px solid #f1c232',
                   cursor: 'pointer',
                   pb: '$4',
                   pt: '24px',
@@ -170,7 +170,7 @@ const HamburgerMenu = () => {
                 justifyContent: 'space-between',
                 cursor: 'pointer',
                 alignItems: 'center',
-                borderBottom: '1px solid $gray4',
+                borderBottom: '1px solid #f1c232',
               }}
               onClick={() => disconnect()}
             >
@@ -207,7 +207,7 @@ const HamburgerMenu = () => {
                 <Text
                   style="subtitle1"
                   css={{
-                    borderBottom: '1px solid $gray4',
+                    borderBottom: '1px solid #f1c232',
                     cursor: 'pointer',
                     pb: '$4',
                     pt: '24px',
@@ -221,7 +221,7 @@ const HamburgerMenu = () => {
                 <Text
                   style="subtitle1"
                   css={{
-                    borderBottom: '1px solid $gray4',
+                    borderBottom: '1px solid #f1c232',
                     cursor: 'pointer',
                     pb: '$4',
                     pt: '24px',
@@ -235,7 +235,7 @@ const HamburgerMenu = () => {
                 href="https://www.decentralizedrefund.com/"
                 target="_blank"
                 css={{
-                  borderBottom: '1px solid $gray4',
+                  borderBottom: '1px solid #f1c232',
                   cursor: 'pointer',
                   pb: '$4',
                   pt: '24px',
@@ -257,7 +257,7 @@ const HamburgerMenu = () => {
             px: '$4',
             gap: '$4',
             width: '100%',
-            borderTop: '1px solid $gray4',
+            borderTop: '1px solid #f1c232',
           }}
         >
           <a href="#" target="_blank">

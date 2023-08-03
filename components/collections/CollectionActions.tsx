@@ -32,7 +32,7 @@ const CollectionAction = styled(Flex, {
   height: 48,
   alignItems: 'center',
   '&:hover': {
-    background: '$gray4',
+    background: '#f1c232',
   },
 })
 
@@ -45,7 +45,7 @@ const CollectionActionDropdownItem = styled(Flex, {
   py: 20,
   transition: 'background 0.25s ease-in',
   '&:hover': {
-    background: '$gray4',
+    background: '#f1c232',
   },
 })
 

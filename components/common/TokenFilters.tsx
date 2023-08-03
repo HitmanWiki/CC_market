@@ -78,7 +78,7 @@ export const TokenFilters: FC<Props> = ({
                   borderRadius: '4px',
                   cursor: 'pointer',
                   '&:hover': {
-                    backgroundColor: selected ? '$gray5' : '$gray4',
+                    backgroundColor: selected ? '$gray5' : '#f1c232',
                   },
                   backgroundColor: selected ? '$gray5' : '',
                 }}

@@ -42,11 +42,11 @@ const Button = styled('button', {
         backgroundColor: '$gray3',
         color: '$gray12',
         '&:hover': {
-          backgroundColor: '$gray4',
+          backgroundColor: '#f1c232',
         },
       },
       gray4: {
-        backgroundColor: '$gray4',
+        backgroundColor: '#f1c232',
         color: '$gray12',
         '&:hover': {
           backgroundColor: '$gray5',

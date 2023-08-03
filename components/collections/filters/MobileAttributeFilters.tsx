@@ -82,7 +82,7 @@ export const MobileAttributeFilters: FC<Props> = ({
             css={{
               height: '24px',
               width: '24px',
-              backgroundColor: '$gray4',
+              backgroundColor: '#f1c232',
               borderRadius: '100%',
               fontSize: 'medium',
               fontWeight: '500',
@@ -119,7 +119,7 @@ export const MobileAttributeFilters: FC<Props> = ({
             py: '$4',
             px: '$4',
             width: '100%',
-            borderBottom: '1px solid $gray4',
+            borderBottom: '1px solid #f1c232',
           }}
           align="center"
           justify="between"
@@ -164,7 +164,7 @@ export const MobileAttributeFilters: FC<Props> = ({
                 backgroundColor: '$gray3',
                 color: '$gray12',
                 '&:hover': {
-                  backgroundColor: '$gray4',
+                  backgroundColor: '#f1c232',
                 },
               }}
             >

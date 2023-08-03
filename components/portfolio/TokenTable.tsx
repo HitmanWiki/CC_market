@@ -452,7 +452,7 @@ const TokenTableRow: FC<TokenTableRowProps> = ({
                 backgroundColor: '$gray3',
                 color: '$gray12',
                 '&:hover': {
-                  backgroundColor: '$gray4',
+                  backgroundColor: '#f1c232',
                 },
               }}
               buttonChildren="List"
@@ -687,7 +687,7 @@ const TokenTableRow: FC<TokenTableRowProps> = ({
                         align="center"
                         css={{
                           borderRadius: 9999,
-                          backgroundColor: '$gray4',
+                          backgroundColor: '#f1c232',
                           maxWidth: '50%',
                         }}
                       >
@@ -884,7 +884,7 @@ const TokenTableRow: FC<TokenTableRowProps> = ({
                 backgroundColor: '$gray3',
                 color: '$gray12',
                 '&:hover': {
-                  backgroundColor: '$gray4',
+                  backgroundColor: '#f1c232',
                 },
               }}
               buttonChildren="List"

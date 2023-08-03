@@ -46,7 +46,7 @@ const Navbar = () => {
         height: NAVBAR_HEIGHT_MOBILE,
         px: '$4',
         width: '100%',
-        borderBottom: '1px solid $gray4',
+        borderBottom: '1px solid #f1c232',
         zIndex: 999,
         background: '$slate1',
         position: 'fixed',
@@ -85,7 +85,7 @@ const Navbar = () => {
         width: '100%',
         maxWidth: 1920,
         mx: 'auto',
-        borderBottom: '1px solid $gray4',
+        borderBottom: '1px solid #f1c232',
         zIndex: 999,
         background: '$neutralBg',
         position: 'fixed',
@@ -134,7 +134,7 @@ const Navbar = () => {
             <Link href="/portfolio">
               <NavItem active={router.pathname == '/portfolio'}>Sell</NavItem>
             </Link>
-            <Link href="https://www.decentralizedrefund.com">
+            <Link href="https://www.cryptocoin.lol/">
               <NavItem active={false}>Know More</NavItem>
             </Link>
           </Flex>

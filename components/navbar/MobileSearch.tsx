@@ -43,7 +43,7 @@ const MobileSearch = () => {
               backgroundColor: '$gray3',
               color: '$gray12',
               '&:hover': {
-                backgroundColor: '$gray4',
+                backgroundColor: '#f1c232',
               },
             }}
           >
