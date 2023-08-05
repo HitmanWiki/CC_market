@@ -1,9 +1,9 @@
 import { arbitrum, mainnet, polygon, optimism } from 'wagmi/chains';
 //Chains that are missing from wagmi:
 export const zora = {
-    id: 7777777,
-    name: 'ZORA',
-    network: 'zora',
+    id: 1,
+    name: 'Eth Mainnet',
+    network: 'Mainnet',
     nativeCurrency: { name: 'Ether', symbol: 'ETH', decimals: 18 },
     rpcUrls: {
         default: {

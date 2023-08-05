@@ -137,6 +137,9 @@ const Navbar = () => {
             <Link href="https://www.cryptocoin.lol/">
               <NavItem active={false}>Know More</NavItem>
             </Link>
+            <Link href="#">
+              <NavItem active={false}>Mint</NavItem>
+            </Link>
           </Flex>
         </Flex>
       </Box>
