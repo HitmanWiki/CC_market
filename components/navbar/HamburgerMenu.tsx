@@ -232,7 +232,7 @@ const HamburgerMenu = () => {
                 </Text>
               </Link>
               <Anchor
-                href="https://www.decentralizedrefund.com/"
+                href="https://www.cryptocoin.lol/"
                 target="_blank"
                 css={{
                   borderBottom: '1px solid #f1c232',
