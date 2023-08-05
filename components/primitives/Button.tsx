@@ -10,17 +10,17 @@ const Button = styled('button', {
   display: 'inline-flex',
   alignItems: 'center',
   lineHeight: '20px',
-  $$focusColor: '$colors$gray12',
+  $$focusColor: '$colors$yellow12',
   '&:focus-visible': {
     boxShadow: '0 0 0 2px $$focusColor',
   },
   '&:disabled': {
-    backgroundColor: '$gray8',
-    color: '$gray11',
+    backgroundColor: '$yellow8',
+    color: '$yellow11',
   },
   '&:disabled:hover': {
-    backgroundColor: '$gray8',
-    color: '$gray11',
+    backgroundColor: '$yellow8',
+    color: '$yellow11',
   },
   variants: {
     color: {
@@ -38,18 +38,18 @@ const Button = styled('button', {
           backgroundColor: '$secondary5',
         },
       },
-      gray3: {
-        backgroundColor: '$gray3',
-        color: '$gray12',
+      yellow3: {
+        backgroundColor: '$yellow3',
+        color: '$yellow12',
         '&:hover': {
           backgroundColor: '#f1c232',
         },
       },
-      gray4: {
+      yellow4: {
         backgroundColor: '#f1c232',
-        color: '$gray12',
+        color: '$yellow12',
         '&:hover': {
-          backgroundColor: '$gray5',
+          backgroundColor: '$yellow5',
         },
       },
       ghost: {

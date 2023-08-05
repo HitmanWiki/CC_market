@@ -1,7 +1,7 @@
 import { styled } from 'stitches.config'
 
 export default styled('span', {
-  color: '$gray12',
+  color: '$yellow12',
   fontFamily: '$body',
   letterSpacing: 0,
 
@@ -54,7 +54,7 @@ export default styled('span', {
     },
     color: {
       subtle: {
-        color: '$gray11',
+        color: '$yellow11',
       },
       error: {
         color: '$red11',

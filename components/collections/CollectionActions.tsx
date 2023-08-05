@@ -25,7 +25,7 @@ type CollectionActionsProps = {
 const CollectionAction = styled(Flex, {
   px: '$4',
   py: '$3',
-  color: '$gray12',
+  color: '$yellow12',
   background: '$panelBg',
   cursor: 'pointer',
   transition: 'background 0.25s ease-in',

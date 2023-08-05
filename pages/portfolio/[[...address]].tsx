@@ -223,7 +223,7 @@ const IndexPage: NextPage = () => {
                             >
                               {shortAddress}
                             </Text>
-                            <Box css={{ color: '$gray10' }}>
+                            <Box css={{ color: '$yellow10' }}>
                               <FontAwesomeIcon
                                 icon={faCopy}
                                 width={16}
@@ -417,12 +417,12 @@ const IndexPage: NextPage = () => {
               <Text style="h4" css={{ mb: '$3' }}>
                 Sell your NFT instantly
               </Text>
-              <Text css={{ color: '$gray11' }}>
+              <Text css={{ color: '$yellow11' }}>
                 <FontAwesomeIcon icon={faWallet} size="2xl" />
               </Text>
               <Text
                 style="body1"
-                css={{ color: '$gray11', textAlign: 'center', mb: '$4' }}
+                css={{ color: '$yellow11', textAlign: 'center', mb: '$4' }}
               >
                 Connect wallet to instant sell your token across all major
                 marketplaces.

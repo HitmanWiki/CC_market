@@ -55,7 +55,7 @@ export const MobileTokenFilters: FC<Props> = ({
         type="button"
         size="small"
         corners="pill"
-        color="gray3"
+        color="yellow3"
       >
         <Text style="h6">Filter</Text>
         {filterCollection && (
@@ -116,8 +116,8 @@ export const MobileTokenFilters: FC<Props> = ({
                 height: '44px',
                 alignItems: 'center',
                 borderRadius: 8,
-                backgroundColor: '$gray3',
-                color: '$gray12',
+                backgroundColor: '$yellow3',
+                color: '$yellow12',
                 '&:hover': {
                   backgroundColor: '#f1c232',
                 },
@@ -150,9 +150,9 @@ export const MobileTokenFilters: FC<Props> = ({
                   gap: '$3',
                   cursor: 'pointer',
                   '&:hover': {
-                    backgroundColor: selected ? '$gray5' : '#f1c232',
+                    backgroundColor: selected ? '$yellow5' : '#f1c232',
                   },
-                  backgroundColor: selected ? '$gray5' : '',
+                  backgroundColor: selected ? '$yellow5' : '',
                 }}
                 align="center"
                 onClick={() => {
@@ -195,7 +195,7 @@ export const MobileTokenFilters: FC<Props> = ({
                     collection?.collection?.openseaVerificationStatus
                   }
                 />
-                <Text style="subtitle2" css={{ color: '$gray10' }}>
+                <Text style="subtitle2" css={{ color: '$yellow10' }}>
                   {collection?.ownership?.tokenCount}
                 </Text>
               </Flex>

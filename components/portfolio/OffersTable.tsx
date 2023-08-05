@@ -71,10 +71,10 @@ export const OffersTable: FC<Props> = ({ address, isOwner }) => {
           align="center"
           css={{ py: '$6', gap: '$4', width: '100%' }}
         >
-          <Text css={{ color: '$gray11' }}>
+          <Text css={{ color: '$yellow11' }}>
             <FontAwesomeIcon icon={faHand} size="2xl" />
           </Text>
-          <Text css={{ color: '$gray11' }}>No offers made yet</Text>
+          <Text css={{ color: '$yellow11' }}>No offers made yet</Text>
         </Flex>
       ) : (
         <Flex direction="column" css={{ width: '100%', pb: '$2' }}>
@@ -147,7 +147,7 @@ const OfferTableRow: FC<OfferTableRowProps> = ({ offer, isOwner, mutate }) => {
         align="start"
         css={{
           gap: '$3',
-          borderBottom: '1px solid $gray3',
+          borderBottom: '1px solid $yellow3',
           py: '$3',
           width: '100%',
           overflow: 'hidden',
@@ -183,7 +183,7 @@ const OfferTableRow: FC<OfferTableRowProps> = ({ offer, isOwner, mutate }) => {
                   minWidth: 0,
                 }}
               >
-                <Text style="subtitle3" ellipsify css={{ color: '$gray11' }}>
+                <Text style="subtitle3" ellipsify css={{ color: '$yellow11' }}>
                   {criteriaData?.collection?.name}
                 </Text>
                 <Text style="subtitle2" ellipsify>
@@ -234,7 +234,7 @@ const OfferTableRow: FC<OfferTableRowProps> = ({ offer, isOwner, mutate }) => {
                           minWidth: '150px',
                           justifyContent: 'center',
                         }}
-                        color="gray3"
+                        color="yellow3"
                       >
                         <FontAwesomeIcon
                           color="#697177"
@@ -252,7 +252,7 @@ const OfferTableRow: FC<OfferTableRowProps> = ({ offer, isOwner, mutate }) => {
                         minWidth: '150px',
                         justifyContent: 'center',
                       }}
-                      color="gray3"
+                      color="yellow3"
                     >
                       Cancel
                     </Button>
@@ -300,7 +300,7 @@ const OfferTableRow: FC<OfferTableRowProps> = ({ offer, isOwner, mutate }) => {
                 overflow: 'hidden',
               }}
             >
-              <Text style="subtitle3" ellipsify css={{ color: '$gray11' }}>
+              <Text style="subtitle3" ellipsify css={{ color: '$yellow11' }}>
                 {criteriaData?.collection?.name}
               </Text>
               <Text style="subtitle2" ellipsify>
@@ -363,7 +363,7 @@ const OfferTableRow: FC<OfferTableRowProps> = ({ offer, isOwner, mutate }) => {
                           minWidth: '150px',
                           justifyContent: 'center',
                         }}
-                        color="gray3"
+                        color="yellow3"
                       >
                         <FontAwesomeIcon
                           color="#697177"
@@ -381,7 +381,7 @@ const OfferTableRow: FC<OfferTableRowProps> = ({ offer, isOwner, mutate }) => {
                         minWidth: '150px',
                         justifyContent: 'center',
                       }}
-                      color="gray3"
+                      color="yellow3"
                     >
                       Cancel
                     </Button>

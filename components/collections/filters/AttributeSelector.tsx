@@ -20,7 +20,7 @@ export const AttributeSelector: FC<Props> = ({ attribute, scrollToTop }) => {
       css={{
         pt: '$3',
         px: '$4',
-        borderBottom: '1px solid $gray7',
+        borderBottom: '1px solid $yellow7',
         cursor: 'pointer',
         '@md': { px: '0' },
       }}
@@ -91,7 +91,7 @@ export const AttributeSelector: FC<Props> = ({ attribute, scrollToTop }) => {
                 <Text
                   style="body1"
                   css={{
-                    color: '$gray11',
+                    color: '$yellow11',
                     flex: 1,
                     whiteSpace: 'pre',
                     textOverflow: 'ellipsis',
@@ -101,7 +101,7 @@ export const AttributeSelector: FC<Props> = ({ attribute, scrollToTop }) => {
                   {value.value}
                 </Text>
 
-                <Text style="body3" css={{ color: '$gray11' }}>
+                <Text style="body3" css={{ color: '$yellow11' }}>
                   {value.count}
                 </Text>
                 <Flex align="center">

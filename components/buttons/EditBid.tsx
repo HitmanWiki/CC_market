@@ -52,7 +52,7 @@ const EditBid: FC<Props> = ({
   )
 
   const trigger = (
-    <Button css={buttonCss} disabled={disabled} {...buttonProps} color="gray3">
+    <Button css={buttonCss} disabled={disabled} {...buttonProps} color="yellow3">
       {buttonChildren}
     </Button>
   )

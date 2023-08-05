@@ -109,7 +109,7 @@ export const ApprovalCollapsible: FC<Props> = ({
         setCollapsibleOpen(open)
       }}
       open={collapsibleOpen}
-      css={{ backgroundColor: '$gray3', width: '100%' }}
+      css={{ backgroundColor: '$yellow3', width: '100%' }}
     >
       <CollapsiblePrimitive.Trigger asChild>
         <Flex justify="between" css={{ px: '$4', py: '$3' }}>
@@ -127,7 +127,7 @@ export const ApprovalCollapsible: FC<Props> = ({
             />
             <Text
               style="subtitle2"
-              css={{ color: isComplete ? '$gray11' : '$gray12' }}
+              css={{ color: isComplete ? '$yellow11' : '$yellow12' }}
             >
               Approve Collection
             </Text>

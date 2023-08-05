@@ -15,7 +15,7 @@ export default function ErrorWell({ message, css }: Props) {
         color: '$red11',
         p: '$4',
         gap: '$2',
-        background: '$gray3',
+        background: '$yellow3',
         ...css,
       }}
       align="center"

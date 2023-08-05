@@ -78,10 +78,10 @@ export const OffersTable: FC<Props> = ({ token, address, is1155, isOwner }) => {
           align="center"
           css={{ py: '$6', gap: '$4', width: '100%' }}
         >
-          <Text css={{ color: '$gray11' }}>
+          <Text css={{ color: '$yellow11' }}>
             <FontAwesomeIcon icon={faHand} size="2xl" />
           </Text>
-          <Text css={{ color: '$gray11' }}>No offers made yet</Text>
+          <Text css={{ color: '$yellow11' }}>No offers made yet</Text>
         </Flex>
       ) : (
         <Flex direction="column" css={{ gap: '$4' }}>
@@ -185,7 +185,7 @@ const OfferTableRow: FC<OfferTableRowProps> = ({
             textStyle="h6"
           />
           {offer.price?.amount?.usd ? (
-            <Text style="body2" css={{ color: '$gray11' }} ellipsify>
+            <Text style="body2" css={{ color: '$yellow11' }} ellipsify>
               {formatDollar(offer.price?.amount?.usd)}
             </Text>
           ) : null}
@@ -281,7 +281,7 @@ const OfferTableRow: FC<OfferTableRowProps> = ({
                             py: '$2',
                             minHeight: 36,
                           }}
-                          color="gray3"
+                          color="yellow3"
                         >
                           <FontAwesomeIcon
                             color="#697177"
@@ -303,7 +303,7 @@ const OfferTableRow: FC<OfferTableRowProps> = ({
                           py: '$2',
                           minHeight: 36,
                         }}
-                        color="gray3"
+                        color="yellow3"
                       >
                         Cancel
                       </Button>

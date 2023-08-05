@@ -250,7 +250,7 @@ const CollectionPage: NextPage<Props> = ({ id, ssr }) => {
                           >
                             {truncateAddress(collection.id as string)}
                           </Text>
-                          <Box css={{ color: '$gray10' }}>
+                          <Box css={{ color: '$yellow10' }}>
                             <FontAwesomeIcon
                               icon={faCopy}
                               width={16}
@@ -309,7 +309,7 @@ const CollectionPage: NextPage<Props> = ({ id, ssr }) => {
                     <Text style="body1" as="p">
                       {truncateAddress(collection.id as string)}
                     </Text>
-                    <Box css={{ color: '$gray10' }}>
+                    <Box css={{ color: '$yellow10' }}>
                       <FontAwesomeIcon icon={faCopy} width={16} height={16} />
                     </Box>
                   </Flex>
@@ -509,10 +509,10 @@ const CollectionPage: NextPage<Props> = ({ id, ssr }) => {
                       align="center"
                       css={{ py: '$6', gap: '$4' }}
                     >
-                      <Text css={{ color: '$gray11' }}>
+                      <Text css={{ color: '$yellow11' }}>
                         <FontAwesomeIcon icon={faMagnifyingGlass} size="2xl" />
                       </Text>
-                      <Text css={{ color: '$gray11' }}>No items found</Text>
+                      <Text css={{ color: '$yellow11' }}>No items found</Text>
                     </Flex>
                   )}
                 </Box>

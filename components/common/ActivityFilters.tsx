@@ -104,7 +104,7 @@ export const ActivityFilters: FC<Props> = ({
               css={{ mb: '$3', gap: '$3' }}
               align="center"
             >
-              <Box css={{ color: '$gray11' }}>
+              <Box css={{ color: '$yellow11' }}>
                 <FontAwesomeIcon icon={filter.icon} width={16} height={16} />
               </Box>
               <Text

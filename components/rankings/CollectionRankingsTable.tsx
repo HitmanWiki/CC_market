@@ -43,10 +43,10 @@ export const CollectionRankingsTable: FC<Props> = ({
           align="center"
           css={{ py: '$6', gap: '$4', width: '100%' }}
         >
-          <Text css={{ color: '$gray11' }}>
+          <Text css={{ color: '$yellow11' }}>
             <FontAwesomeIcon icon={faMagnifyingGlass} size="2xl" />
           </Text>
-          <Text css={{ color: '$gray11' }}>No collections found</Text>
+          <Text css={{ color: '$yellow11' }}>No collections found</Text>
         </Flex>
       ) : (
         <Flex direction="column" css={{ width: '100%', pb: '$2' }}>
@@ -140,7 +140,7 @@ const RankingsTableRow: FC<RankingsTableRowProps> = ({
               />
             </Flex>
             <Flex align="center">
-              <Text css={{ mr: '$1', color: '$gray11' }} style="body3">
+              <Text css={{ mr: '$1', color: '$yellow11' }} style="body3">
                 Floor
               </Text>
               <FormatCryptoCurrency

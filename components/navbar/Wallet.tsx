@@ -187,13 +187,13 @@ const Wallet = () => {
       direction="column"
       align="center"
       css={{
-        background: '$gray2',
+        background: '$yellow2',
         borderRadius: 8,
         mt: '$3',
       }}
     >
       <Text css={{ p: '$3' }}>Wallet</Text>
-      <Box css={{ width: '100%', height: 1, background: '$gray1' }}></Box>
+      <Box css={{ width: '100%', height: 1, background: '$yellow1' }}></Box>
       <Flex direction="column" align="center" css={{ p: '$4', width: '100%' }}>
         <Text style="body2" color="subtle" css={{ mb: '$2' }}>
           Total Balance
@@ -222,7 +222,7 @@ const Wallet = () => {
                 css={{
                   width: 40,
                   height: 40,
-                  background: '$gray3',
+                  background: '$yellow3',
                   borderRadius: 4,
                   flexShrink: 0,
                 }}
@@ -262,7 +262,7 @@ const Wallet = () => {
             mt: 24,
             mb: '$3',
           }}
-          color="gray3"
+          color="yellow3"
           onClick={() => {
             setViewAll(!viewAll)
           }}

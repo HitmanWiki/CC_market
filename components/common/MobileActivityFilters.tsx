@@ -91,7 +91,7 @@ export const MobileActivityFilters: FC<Props> = ({
         type="button"
         size="small"
         corners="pill"
-        color="gray3"
+        color="yellow3"
       >
         <Text style="h6">Filter</Text>
         {filtersEnabled && (
@@ -143,7 +143,7 @@ export const MobileActivityFilters: FC<Props> = ({
                 css={{
                   height: '24px',
                   width: '24px',
-                  backgroundColor: '$gray3',
+                  backgroundColor: '$yellow3',
                   borderRadius: '100%',
                   mr: '$3',
                 }}
@@ -172,8 +172,8 @@ export const MobileActivityFilters: FC<Props> = ({
                 height: '44px',
                 alignItems: 'center',
                 borderRadius: 8,
-                backgroundColor: '$gray3',
-                color: '$gray12',
+                backgroundColor: '$yellow3',
+                color: '$yellow12',
                 '&:hover': {
                   backgroundColor: '#f1c232',
                 },
@@ -201,7 +201,7 @@ export const MobileActivityFilters: FC<Props> = ({
               css={{ mb: '$3', gap: '$3' }}
               align="center"
             >
-              <Box css={{ color: '$gray11' }}>
+              <Box css={{ color: '$yellow11' }}>
                 <FontAwesomeIcon icon={filter.icon} width={16} height={16} />
               </Box>
               <Text

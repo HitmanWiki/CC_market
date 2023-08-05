@@ -16,14 +16,14 @@ const StyledInput = styled('input', {
   borderRadius: 8,
   fontFamily: '$body',
   fontSize: 16,
-  color: '$gray12',
-  backgroundColor: '$gray3',
+  color: '$yellow12',
+  backgroundColor: '$yellow3',
   $$focusColor: '$colors$primary8',
-  '&::placeholder': { color: '$gray10' },
+  '&::placeholder': { color: '$yellow10' },
   '&:focus': { boxShadow: 'inset 0 0 0 2px $$focusColor' },
   '&:disabled': {
-    backgroundColor: '$gray2',
-    color: '$gray9',
+    backgroundColor: '$yellow2',
+    color: '$yellow9',
   },
 
   '&::-webkit-outer-spin-button, &::-webkit-inner-spin-button': {

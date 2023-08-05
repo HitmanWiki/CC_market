@@ -45,7 +45,7 @@ export const AccountSidebar: FC = () => {
       }}
       corners="circle"
       type="button"
-      color="gray3"
+      color="yellow3"
     >
       {ensAvatar ? (
         <Avatar size="medium" src={ensAvatar} />
@@ -82,7 +82,7 @@ export const AccountSidebar: FC = () => {
                 maxWidth: 395,
                 minWidth: 395,
                 maxHeight: '100vh',
-                background: '$gray1',
+                background: '$yellow1',
                 border: 0,
                 borderRadius: 0,
               }}
@@ -105,7 +105,7 @@ export const AccountSidebar: FC = () => {
                 <Flex direction="column" css={{ py: 42, px: '$4' }}>
                   <Button
                     color="ghost"
-                    css={{ color: '$gray10', ml: 'auto', mr: 10 }}
+                    css={{ color: '$yellow10', ml: 'auto', mr: 10 }}
                     onClick={() => {
                       setOpen(false)
                     }}
@@ -130,7 +130,7 @@ export const AccountSidebar: FC = () => {
                           align="center"
                           css={{
                             gap: 10,
-                            color: '$gray11',
+                            color: '$yellow11',
                             cursor: 'pointer',
                           }}
                         >
@@ -150,7 +150,7 @@ export const AccountSidebar: FC = () => {
                             align="center"
                             css={{
                               gap: 10,
-                              color: '$gray11',
+                              color: '$yellow11',
                               cursor: 'pointer',
                             }}
                           >
@@ -174,7 +174,7 @@ export const AccountSidebar: FC = () => {
                         css={{
                           gap: 6,
                           p: '$3',
-                          color: '$gray10',
+                          color: '$yellow10',
                           cursor: 'pointer',
                         }}
                       >
@@ -188,7 +188,7 @@ export const AccountSidebar: FC = () => {
                         css={{
                           gap: 6,
                           p: '$3',
-                          color: '$gray10',
+                          color: '$yellow10',
                           cursor: 'pointer',
                         }}
                       >
@@ -202,7 +202,7 @@ export const AccountSidebar: FC = () => {
                         css={{
                           gap: 6,
                           p: '$3',
-                          color: '$gray10',
+                          color: '$yellow10',
                           cursor: 'pointer',
                         }}
                       >
@@ -216,7 +216,7 @@ export const AccountSidebar: FC = () => {
                         css={{
                           gap: 6,
                           p: '$3',
-                          color: '$gray10',
+                          color: '$yellow10',
                           cursor: 'pointer',
                         }}
                       >
@@ -237,7 +237,7 @@ export const AccountSidebar: FC = () => {
                     onClick={() => disconnect()}
                   >
                     <Text style="body1">Logout</Text>
-                    <Box css={{ color: '$gray10' }}>
+                    <Box css={{ color: '$yellow10' }}>
                       <FontAwesomeIcon
                         icon={faRightFromBracket}
                         width={16}

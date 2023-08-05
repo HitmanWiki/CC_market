@@ -16,7 +16,7 @@ export const OnlyUserOrdersToggle: FC<Props> = ({
       justify="between"
       css={{
         width: '100%',
-        backgroundColor: '$gray2',
+        backgroundColor: '$yellow2',
         borderRadius: 4,
         py: '$3',
         px: '$4',

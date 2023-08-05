@@ -154,7 +154,7 @@ export default ({
         passHref
         href={`/${routePrefix}/asset/${token?.token?.contract}:${token?.token?.tokenId}`}
       >
-        <Box css={{ background: '$gray3', overflow: 'hidden' }}>
+        <Box css={{ background: '$yellow3', overflow: 'hidden' }}>
           <TokenMedia
             token={token?.token}
             style={{
@@ -229,7 +229,7 @@ export default ({
                 css={{
                   px: '$1',
                   py: 2,
-                  background: '$gray5',
+                  background: '$yellow5',
                   borderRadius: 8,
                   minWidth: 'max-content',
                 }}
@@ -302,7 +302,7 @@ export default ({
           </Flex>
           {token?.token?.lastSale?.price?.amount?.decimal ? (
             <Flex css={{ gap: '$2', marginTop: 'auto' }}>
-              <Text css={{ color: '$gray11' }} style="subtitle3">
+              <Text css={{ color: '$yellow11' }} style="subtitle3">
                 Last Sale
               </Text>
               <FormatCryptoCurrency

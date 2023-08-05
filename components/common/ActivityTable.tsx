@@ -190,7 +190,7 @@ const ActivityTableRow: FC<ActivityTableRowProps> = ({ activity }) => {
       <TableRow key={activity.txHash} css={{ gridTemplateColumns: '1fr' }}>
         <TableCell css={{ pr: '0', width: '100%', minWidth: 0 }}>
           <Flex direction="column" css={{ gap: '$3' }}>
-            <Flex css={{ color: '$gray11' }} align="center" justify="between">
+            <Flex css={{ color: '$yellow11' }} align="center" justify="between">
               <Flex align="center">
                 {activity.type && logos[activity.type]}
                 <Text
@@ -198,7 +198,7 @@ const ActivityTableRow: FC<ActivityTableRowProps> = ({ activity }) => {
                   ellipsify
                   css={{
                     ml: '$2',
-                    color: '$gray11',
+                    color: '$yellow11',
                     fontSize: '14px',
                     minWidth: 0,
                   }}
@@ -217,7 +217,7 @@ const ActivityTableRow: FC<ActivityTableRowProps> = ({ activity }) => {
                 )}
                 <Text
                   style="subtitle3"
-                  css={{ fontSize: '12px', color: '$gray11' }}
+                  css={{ fontSize: '12px', color: '$yellow11' }}
                 >
                   {useTimeSince(activity?.timestamp)}
                 </Text>
@@ -263,7 +263,7 @@ const ActivityTableRow: FC<ActivityTableRowProps> = ({ activity }) => {
                     </Text>
                     <Text
                       ellipsify
-                      css={{ fontSize: '12px', color: '$gray11' }}
+                      css={{ fontSize: '12px', color: '$yellow11' }}
                     >
                       {attributeDescription}
                     </Text>
@@ -295,7 +295,7 @@ const ActivityTableRow: FC<ActivityTableRowProps> = ({ activity }) => {
             <Flex align="baseline" css={{ gap: '$2' }}>
               <Text
                 style="subtitle3"
-                css={{ fontSize: '12px', color: '$gray11' }}
+                css={{ fontSize: '12px', color: '$yellow11' }}
               >
                 From
               </Text>
@@ -318,7 +318,7 @@ const ActivityTableRow: FC<ActivityTableRowProps> = ({ activity }) => {
               )}
               <Text
                 style="subtitle3"
-                css={{ fontSize: '12px', color: '$gray11' }}
+                css={{ fontSize: '12px', color: '$yellow11' }}
               >
                 to
               </Text>
@@ -351,7 +351,7 @@ const ActivityTableRow: FC<ActivityTableRowProps> = ({ activity }) => {
       key={activity.txHash}
       css={{ gridTemplateColumns: '.75fr 1.25fr .9fr 1fr 1fr 1fr 1.1fr' }}
     >
-      <TableCell css={{ color: '$gray11', minWidth: 0 }}>
+      <TableCell css={{ color: '$yellow11', minWidth: 0 }}>
         <Flex align="center" title={activityDescription}>
           {activity.type && logos[activity.type]}
           <Text
@@ -359,7 +359,7 @@ const ActivityTableRow: FC<ActivityTableRowProps> = ({ activity }) => {
             ellipsify
             css={{
               ml: '$2',
-              color: '$gray11',
+              color: '$yellow11',
               fontSize: '14px',
               cursor: 'default',
             }}
@@ -393,7 +393,7 @@ const ActivityTableRow: FC<ActivityTableRowProps> = ({ activity }) => {
                   activity.token?.tokenId ||
                   activity.collection?.collectionName}
               </Text>
-              <Text ellipsify css={{ fontSize: '12px', color: '$gray11' }}>
+              <Text ellipsify css={{ fontSize: '12px', color: '$yellow11' }}>
                 {attributeDescription}
               </Text>
             </Flex>

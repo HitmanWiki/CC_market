@@ -273,7 +273,7 @@ const GlobalSearch = forwardRef<
             left: '$4',
             zIndex: 2,
             transform: 'translate(0, -50%)',
-            color: '$gray11',
+            color: '$yellow11',
           }}
         >
           <FontAwesomeIcon icon={faMagnifyingGlass} />
@@ -289,7 +289,7 @@ const GlobalSearch = forwardRef<
             position: 'absolute',
             right: '$4',
             zIndex: 2,
-            color: '$gray10',
+            color: '$yellow10',
           }}
           type="button"
           size="small"
@@ -313,7 +313,7 @@ const GlobalSearch = forwardRef<
         >
           <Text
             css={{
-              color: '$gray9',
+              color: '$yellow9',
               display: 'none',
               '@bp1100': { display: 'block' },
             }}
@@ -352,7 +352,7 @@ const GlobalSearch = forwardRef<
               borderRadius: isMobile ? 0 : 8,
               zIndex: 4,
               mt: '$2',
-              border: isMobile ? '' : '1px solid $gray7',
+              border: isMobile ? '' : '1px solid $yellow7',
               overflow: 'hidden',
               width: '100%',
             }}

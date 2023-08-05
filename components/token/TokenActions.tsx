@@ -164,7 +164,7 @@ export const TokenActions: FC<Props> = ({
                         maxWidth: 250,
                       },
                     }}
-                    color="gray3"
+                    color="yellow3"
                   >
                     <FontAwesomeIcon
                       color="#697177"
@@ -187,7 +187,7 @@ export const TokenActions: FC<Props> = ({
                       maxWidth: 250,
                     },
                   }}
-                  color="gray3"
+                  color="yellow3"
                 >
                   Cancel Offer
                 </Button>
@@ -216,7 +216,7 @@ export const TokenActions: FC<Props> = ({
                       color: '$red11',
                       minWidth: '150px',
                     }}
-                    color="gray3"
+                    color="yellow3"
                   >
                     <FontAwesomeIcon
                       color="#697177"
@@ -234,7 +234,7 @@ export const TokenActions: FC<Props> = ({
                     minWidth: '150px',
                     justifyContent: 'center',
                   }}
-                  color="gray3"
+                  color="yellow3"
                 >
                   Cancel Listing
                 </Button>

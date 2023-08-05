@@ -78,9 +78,9 @@ export const TokenFilters: FC<Props> = ({
                   borderRadius: '4px',
                   cursor: 'pointer',
                   '&:hover': {
-                    backgroundColor: selected ? '$gray5' : '#f1c232',
+                    backgroundColor: selected ? '$yellow5' : '#f1c232',
                   },
-                  backgroundColor: selected ? '$gray5' : '',
+                  backgroundColor: selected ? '$yellow5' : '',
                 }}
                 align="center"
                 onClick={() => {
@@ -126,7 +126,7 @@ export const TokenFilters: FC<Props> = ({
                       }
                     />
                   </Flex>
-                  <Text style="subtitle3" css={{ color: '$gray10' }}>
+                  <Text style="subtitle3" css={{ color: '$yellow10' }}>
                     Owned: {formatNumber(collection?.ownership?.tokenCount)}
                   </Text>
                 </Flex>

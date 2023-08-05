@@ -212,13 +212,13 @@ const ActivityTableRow: FC<ActivityTableRowProps> = ({ activity }) => {
           gridTemplateColumns: '0.75fr 1fr',
         }}
       >
-        <TableCell css={{ color: '$gray11' }}>
+        <TableCell css={{ color: '$yellow11' }}>
           <Flex direction="column" css={{ gap: '$2' }}>
             <Flex align="center">
               {activity.type && logos[activity.type]}
               <Text
                 style="subtitle1"
-                css={{ ml: '$2', color: '$gray11', fontSize: '14px' }}
+                css={{ ml: '$2', color: '$yellow11', fontSize: '14px' }}
               >
                 {activityDescription}
               </Text>
@@ -302,7 +302,7 @@ const ActivityTableRow: FC<ActivityTableRowProps> = ({ activity }) => {
               )}
               <Text
                 style="subtitle3"
-                css={{ fontSize: '12px', color: '$gray11' }}
+                css={{ fontSize: '12px', color: '$yellow11' }}
               >
                 to
               </Text>
@@ -337,7 +337,7 @@ const ActivityTableRow: FC<ActivityTableRowProps> = ({ activity }) => {
         gridTemplateColumns: '1fr 1fr',
       }}
     >
-      <TableCell css={{ color: '$gray11' }}>
+      <TableCell css={{ color: '$yellow11' }}>
         <Flex direction="column" css={{ gap: '$2' }}>
           <Flex align="center">
             {activity.type && logos[activity.type]}

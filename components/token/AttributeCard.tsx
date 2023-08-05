@@ -28,7 +28,7 @@ export default ({ attribute, collectionTokenCount, collectionId }: Props) => {
       <Flex
         direction="column"
         css={{
-          background: '$gray2',
+          background: '$yellow2',
           mr: 'auto',
           px: '$4',
           py: '$3',
@@ -53,10 +53,10 @@ export default ({ attribute, collectionTokenCount, collectionId }: Props) => {
           />
         </Flex>
         <Flex justify="between">
-          <Text style="body3" css={{ color: '$gray11' }}>
+          <Text style="body3" css={{ color: '$yellow11' }}>
             {formatNumber(attribute.tokenCount)} ({attributeRarity}%) have this
           </Text>
-          <Text style="body3" css={{ color: '$gray11' }}>
+          <Text style="body3" css={{ color: '$yellow11' }}>
             floor
           </Text>
         </Flex>

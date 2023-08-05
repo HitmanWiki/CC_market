@@ -15,7 +15,7 @@ export const FilterButton: FC<Props> = ({ open, setOpen }) => {
       type="button"
       onClick={() => setOpen(!open)}
       size="small"
-      color="gray3"
+      color="yellow3"
     >
       <FontAwesomeIcon
         icon={open ? faChevronLeft : faFilter}

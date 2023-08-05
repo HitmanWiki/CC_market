@@ -8,7 +8,7 @@ type SectionTitleProps = {
 }
 
 const SectionTitle: FC<SectionTitleProps> = ({ title }) => (
-  <Text style="subtitle1" css={{ color: '$gray12', mb: 8 }}>
+  <Text style="subtitle1" css={{ color: '$yellow12', mb: 8 }}>
     {title}
   </Text>
 )
@@ -65,7 +65,7 @@ export const Footer = () => {
     <Flex
       justify="between"
       css={{
-        borderTop: '1px solid $gray7',
+        borderTop: '1px solid $yellow7',
         borderStyle: 'solid',
         pt: '$5',
         flexDirection: 'column',
@@ -102,7 +102,7 @@ export const Footer = () => {
             rel="noopener noreferrer"
             href="#"
           >
-            <Button size="xs" color="gray3">
+            <Button size="xs" color="yellow3">
               <FontAwesomeIcon icon={faTwitter} width={14} height={14} />
             </Button>
           </a>
