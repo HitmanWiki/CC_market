@@ -244,6 +244,19 @@ const HamburgerMenu = () => {
               >
                 <Text style="subtitle1">Know More</Text>
               </Anchor>
+              <Anchor
+                href="#"
+                target="_blank"
+                css={{
+                  borderBottom: '1px solid #f1c232',
+                  cursor: 'pointer',
+                  pb: '$4',
+                  pt: '24px',
+                  width: '100%',
+                }}
+              >
+                <Text style="subtitle1">Mint</Text>
+              </Anchor>
             </Flex>
             <Box>
               <ConnectWalletButton />
