@@ -33,7 +33,7 @@ type Props = {
 
 const Logo = styled(ReservoirLogoWhiteText, {
   '& .letter': {
-    fill: '$yellow12',
+    fill: '$gray12',
   },
 })
 
@@ -65,7 +65,7 @@ export const Modal = forwardRef<ElementRef<typeof Dialog>, Props>(
         <Flex
           css={{
             p: 16,
-            backgroundColor: '$yellow3',
+            backgroundColor: '$gray3',
             alignItems: 'center',
             justifyContent: 'space-between',
             borderTopRightRadius: '$borderRadius',
@@ -106,7 +106,7 @@ export const Modal = forwardRef<ElementRef<typeof Dialog>, Props>(
             mx: 'auto',
             alignItems: 'center',
             justifyContent: 'center',
-            backgroundColor: '$yellow3',
+            backgroundColor: '$gray3',
             py: 10.5,
             borderBottomRightRadius: '$borderRadius',
             borderBottomLeftRadius: '$borderRadius',

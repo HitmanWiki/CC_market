@@ -5,9 +5,9 @@ export const StyledAnchor = styled('a', {
   cursor: 'pointer',
   fontFamily: '$body',
   fontSize: 16,
-  $$focusColor: '$colors$yellow12',
+  $$focusColor: '$colors$gray12',
   '&:focus-visible': {
-    color: '$yellow12',
+    color: '$gray12',
     outline: 'none',
     borderRadius: 4,
     boxShadow: '0 0 0 2px $$focusColor',
@@ -20,8 +20,8 @@ export const StyledAnchor = styled('a', {
           color: '$primary10',
         },
       },
-      yellow: {
-        color: '$yellow11',
+      gray: {
+        color: '$gray11',
         '&:hover': {
           color: '$primary11',
         },
@@ -40,7 +40,7 @@ export const StyledAnchor = styled('a', {
     },
   },
   defaultVariants: {
-    color: 'yellow',
+    color: 'gray',
     weight: 'heavy',
   },
 })

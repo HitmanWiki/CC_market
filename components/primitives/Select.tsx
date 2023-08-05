@@ -36,14 +36,14 @@ const StyledTrigger = styled(SelectPrimitive.Trigger, {
   display: 'flex',
   justifyContent: 'space-between',
   color: '$neutralTextContrast',
-  backgroundColor: '$yellow3',
+  backgroundColor: '$gray3',
   $$focusColor: '$colors$accentBorderHover',
   '&:placeholder': { color: '$neutralText' },
   '&:focus': { boxShadow: '0 0 0 2px $$focusColor' },
 })
 
 const StyledContent = styled(SelectPrimitive.Content, {
-  backgroundColor: '$yellow3',
+  backgroundColor: '$gray3',
   color: '$textColor',
   borderRadius: 8,
   overflow: 'hidden',

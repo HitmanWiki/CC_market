@@ -33,7 +33,7 @@ const HamburgerMenu = () => {
       css={{ justifyContent: 'center', width: '44px', height: '44px' }}
       type="button"
       size="small"
-      color="yellow3"
+      color="gray3"
     >
       <FontAwesomeIcon icon={faBars} width={16} height={16} />
     </Button>
@@ -76,8 +76,8 @@ const HamburgerMenu = () => {
                 height: '44px',
                 alignItems: 'center',
                 borderRadius: 8,
-                backgroundColor: '$yellow3',
-                color: '$yellow12',
+                backgroundColor: '$gray3',
+                color: '$gray12',
                 '&:hover': {
                   backgroundColor: '#f1c232',
                 },
@@ -183,7 +183,7 @@ const HamburgerMenu = () => {
               >
                 Logout
               </Text>
-              <Box css={{ color: '$yellow10' }}>
+              <Box css={{ color: '$gray10' }}>
                 <FontAwesomeIcon
                   icon={faRightFromBracket}
                   width={16}
@@ -265,7 +265,7 @@ const HamburgerMenu = () => {
               css={{ justifyContent: 'center', width: '44px', height: '44px' }}
               type="button"
               size="small"
-              color="yellow3"
+              color="gray3"
             >
               <FontAwesomeIcon icon={faTwitter} width={20} height={20} />
             </Button>

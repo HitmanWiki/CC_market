@@ -33,7 +33,7 @@ const swipeOut = keyframes({
 })
 
 const ToastRoot = styled(ToastPrimitive.Root, {
-  backgroundColor: '$yellow3',
+  backgroundColor: '$gray3',
   borderRadius: 6,
   padding: 12,
   display: 'flex',
@@ -65,7 +65,7 @@ const ToastDescription = styled(ToastPrimitive.Description, {
   gridArea: 'description',
   fontSize: '12px',
   fontWeight: 400,
-  color: '$yellow11',
+  color: '$gray11',
 })
 
 const ToastAction = styled(ToastPrimitive.Action, {})

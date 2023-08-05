@@ -21,7 +21,7 @@ const Img = (props: ComponentPropsWithoutRef<typeof StyledImg>) => {
   return collectionImageBroken || !props.src ? (
     props.alt === 'Collection Page Image' ? (
       <Flex
-        css={{ ...props.css, background: '$yellow1' }}
+        css={{ ...props.css, background: '$gray1' }}
         justify="center"
         align="center"
       >
@@ -34,7 +34,7 @@ const Img = (props: ComponentPropsWithoutRef<typeof StyledImg>) => {
       </Flex>
     ) : props.alt === 'Activity Token Image' ? (
       <Flex
-        css={{ ...props.css, background: '$yellow1' }}
+        css={{ ...props.css, background: '$gray1' }}
         justify="center"
         align="center"
       >
@@ -47,7 +47,7 @@ const Img = (props: ComponentPropsWithoutRef<typeof StyledImg>) => {
       </Flex>
     ) : props.alt === 'Searchbar Collection Image' ? (
       <Flex
-        css={{ ...props.css, background: '$yellow3' }}
+        css={{ ...props.css, background: '$gray3' }}
         justify="center"
         align="center"
       >
@@ -60,7 +60,7 @@ const Img = (props: ComponentPropsWithoutRef<typeof StyledImg>) => {
       </Flex>
     ) : (
       <Flex
-        css={{ ...props.css, background: '$yellow3' }}
+        css={{ ...props.css, background: '$gray3' }}
         justify="center"
         align="center"
       >

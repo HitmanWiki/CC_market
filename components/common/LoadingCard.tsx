@@ -2,9 +2,9 @@ import { keyframes } from '@stitches/react'
 import { Box, Flex } from 'components/primitives'
 
 const pulse = keyframes({
-  '0%': { backgroundColor: '$yellow6' },
-  '50%': { backgroundColor: '$yellow8' },
-  '100%': { backgroundColor: '$yellow6' },
+  '0%': { backgroundColor: '$gray6' },
+  '50%': { backgroundColor: '$gray8' },
+  '100%': { backgroundColor: '$gray6' },
 })
 
 const LoadingCard = () => {
@@ -15,7 +15,7 @@ const LoadingCard = () => {
       css={{
         borderRadius: 8,
         overflow: 'hidden',
-        background: '$yellow6',
+        background: '$gray6',
         height: '100%',
         minHeight: 332,
         '@md': {
@@ -36,7 +36,7 @@ const LoadingCard = () => {
             css={{
               height: 20,
               width: 120,
-              background: '$yellow6',
+              background: '$gray6',
               animation: `${pulse} 2s ease-in infinite`,
             }}
           ></Box>
@@ -44,7 +44,7 @@ const LoadingCard = () => {
             css={{
               height: 20,
               width: 40,
-              background: '$yellow6',
+              background: '$gray6',
               animation: `${pulse} 2s ease-in infinite`,
             }}
           ></Box>
@@ -58,7 +58,7 @@ const LoadingCard = () => {
             css={{
               height: 20,
               width: 60,
-              background: '$yellow6',
+              background: '$gray6',
               animation: `${pulse} 2s ease-in infinite`,
             }}
           ></Box>
@@ -66,7 +66,7 @@ const LoadingCard = () => {
             css={{
               height: 20,
               width: 20,
-              background: '$yellow6',
+              background: '$gray6',
               animation: `${pulse} 2s ease-in infinite`,
             }}
           ></Box>

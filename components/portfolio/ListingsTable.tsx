@@ -71,10 +71,10 @@ export const ListingsTable: FC<Props> = ({ address, isOwner }) => {
           align="center"
           css={{ py: '$6', gap: '$4', width: '100%' }}
         >
-          <Text css={{ color: '$yellow11' }}>
+          <Text css={{ color: '$gray11' }}>
             <FontAwesomeIcon icon={faTag} size="2xl" />
           </Text>
-          <Text css={{ color: '$yellow11' }}>No listings yet</Text>
+          <Text css={{ color: '$gray11' }}>No listings yet</Text>
         </Flex>
       ) : (
         <Flex direction="column" css={{ width: '100%', pb: '$2' }}>
@@ -141,7 +141,7 @@ const ListingTableRow: FC<ListingTableRowProps> = ({
         align="start"
         css={{
           gap: '$3',
-          borderBottom: '1px solid $yellow3',
+          borderBottom: '1px solid $gray3',
           py: '$3',
           width: '100%',
           overflow: 'hidden',
@@ -173,7 +173,7 @@ const ListingTableRow: FC<ListingTableRowProps> = ({
                   minWidth: 0,
                 }}
               >
-                <Text style="subtitle3" ellipsify css={{ color: '$yellow11' }}>
+                <Text style="subtitle3" ellipsify css={{ color: '$gray11' }}>
                   {criteriaData?.collection?.name}
                 </Text>
                 <Text style="subtitle2" ellipsify>
@@ -221,7 +221,7 @@ const ListingTableRow: FC<ListingTableRowProps> = ({
                           minWidth: '150px',
                           justifyContent: 'center',
                         }}
-                        color="yellow3"
+                        color="gray3"
                       >
                         <FontAwesomeIcon
                           color="#697177"
@@ -239,7 +239,7 @@ const ListingTableRow: FC<ListingTableRowProps> = ({
                         minWidth: '150px',
                         justifyContent: 'center',
                       }}
-                      color="yellow3"
+                      color="gray3"
                     >
                       Cancel
                     </Button>
@@ -294,7 +294,7 @@ const ListingTableRow: FC<ListingTableRowProps> = ({
                 overflow: 'hidden',
               }}
             >
-              <Text style="subtitle3" ellipsify css={{ color: '$yellow11' }}>
+              <Text style="subtitle3" ellipsify css={{ color: '$gray11' }}>
                 {criteriaData?.collection?.name}
               </Text>
               <Text style="subtitle2" ellipsify>
@@ -355,7 +355,7 @@ const ListingTableRow: FC<ListingTableRowProps> = ({
                           minWidth: '150px',
                           justifyContent: 'center',
                         }}
-                        color="yellow3"
+                        color="gray3"
                       >
                         <FontAwesomeIcon
                           color="#697177"
@@ -373,7 +373,7 @@ const ListingTableRow: FC<ListingTableRowProps> = ({
                         minWidth: '150px',
                         justifyContent: 'center',
                       }}
-                      color="yellow3"
+                      color="gray3"
                     >
                       Cancel
                     </Button>

@@ -14,10 +14,10 @@ const NavItem = forwardRef<
     {...props}
     ref={forwardedRef}
     css={{
-      color: active ? '$yellow12' : '$yellow10',
+      color: active ? '$gray12' : '$gray10',
       cursor: 'pointer',
       '&:hover': {
-        color: '$yellow11',
+        color: '$gray11',
       },
     }}
     as="p"

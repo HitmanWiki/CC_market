@@ -72,7 +72,7 @@ export const MobileAttributeFilters: FC<Props> = ({
         type="button"
         size="small"
         corners="pill"
-        color="yellow3"
+        color="gray3"
       >
         <Text style="h6">Filter</Text>
         {filtersEnabled && (
@@ -134,7 +134,7 @@ export const MobileAttributeFilters: FC<Props> = ({
                 css={{
                   height: '24px',
                   width: '24px',
-                  backgroundColor: '$yellow3',
+                  backgroundColor: '$gray3',
                   borderRadius: '100%',
                   mr: '$3',
                 }}
@@ -161,8 +161,8 @@ export const MobileAttributeFilters: FC<Props> = ({
                 height: '44px',
                 alignItems: 'center',
                 borderRadius: 8,
-                backgroundColor: '$yellow3',
-                color: '$yellow12',
+                backgroundColor: '$gray3',
+                color: '$gray12',
                 '&:hover': {
                   backgroundColor: '#f1c232',
                 },

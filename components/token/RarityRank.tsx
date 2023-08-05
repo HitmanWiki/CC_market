@@ -76,7 +76,7 @@ export default ({ token, collection, collectionAttributes }: Props) => {
       <Flex
         align="center"
         css={{
-          background: '$yellow2',
+          background: '$gray2',
           mt: 24,
           mr: 'auto',
           px: '$2',
@@ -87,7 +87,7 @@ export default ({ token, collection, collectionAttributes }: Props) => {
         }}
       >
         <img style={{ width: 13, height: 13 }} src="/icons/rarity-icon.svg" />
-        <Text style="subtitle2" css={{ color: '$yellow11' }}>
+        <Text style="subtitle2" css={{ color: '$gray11' }}>
           Rank
         </Text>
         <Text style="subtitle2">{formatNumber(rarityRank)} </Text>

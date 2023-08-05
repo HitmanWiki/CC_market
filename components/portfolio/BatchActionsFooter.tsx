@@ -40,7 +40,7 @@ const BatchActionsFooter: FC<Props> = ({
         right: 0,
         px: '$5',
         py: '$4',
-        borderTop: '1px solid $yellow7',
+        borderTop: '1px solid $gray7',
         backgroundColor: '$neutralBg',
         zIndex: 999,
       }}
@@ -62,7 +62,7 @@ const BatchActionsFooter: FC<Props> = ({
         <Button
           onClick={() => setShowListingPage(true)}
           disabled={selectedItems.length < 1}
-          color={sellableItems.length > 0 ? 'yellow3' : 'primary'}
+          color={sellableItems.length > 0 ? 'gray3' : 'primary'}
         >
           {selectedItems.length > 0
             ? `List ${selectedItems.length} ${listItemSubject}`

@@ -57,7 +57,7 @@ const Bid: FC<Props> = ({
   )
 
   const trigger = (
-    <Button css={buttonCss} disabled={disabled} {...buttonProps} color="yellow3">
+    <Button css={buttonCss} disabled={disabled} {...buttonProps} color="gray3">
       Make Offer
     </Button>
   )

@@ -210,7 +210,7 @@ export default ({
         passHref
         href={`/${routePrefix}/asset/${token?.token?.contract}:${token?.token?.tokenId}`}
       >
-        <Box css={{ background: '$yellow3', overflow: 'hidden' }}>
+        <Box css={{ background: '$gray3', overflow: 'hidden' }}>
           <TokenMedia
             token={dynamicToken?.token}
             style={{
@@ -284,7 +284,7 @@ export default ({
                 css={{
                   px: '$1',
                   py: 2,
-                  background: '$yellow5',
+                  background: '$gray5',
                   borderRadius: 8,
                   minWidth: 'max-content',
                 }}
@@ -346,7 +346,7 @@ export default ({
           </Flex>
           {token?.token?.lastSale?.price?.amount?.decimal ? (
             <Flex css={{ gap: '$2', marginTop: 'auto' }}>
-              <Text css={{ color: '$yellow11' }} style="subtitle3">
+              <Text css={{ color: '$gray11' }} style="subtitle3">
                 Last Sale
               </Text>
               <FormatCryptoCurrency
@@ -445,15 +445,15 @@ export default ({
                   outline: 'none',
                   cursor: 'pointer',
                   '&:hover': {
-                    backgroundColor: '$yellow5',
+                    backgroundColor: '$gray5',
                   },
                   '&:focus': {
-                    backgroundColor: '$yellow5',
+                    backgroundColor: '$gray5',
                   },
                 }}
                 buttonChildren={
                   <>
-                    <Box css={{ color: '$yellow10' }}>
+                    <Box css={{ color: '$gray10' }}>
                       <FontAwesomeIcon icon={faHand} />
                     </Box>
                     <Text>Accept Best Offer</Text>
@@ -514,7 +514,7 @@ export default ({
               <Flex align="center" css={{ gap: '$2' }}>
                 <Box
                   css={{
-                    color: '$yellow10',
+                    color: '$gray10',
                     animation: isRefreshing
                       ? `${spin} 1s cubic-bezier(0.76, 0.35, 0.2, 0.7) infinite`
                       : 'none',
@@ -542,14 +542,14 @@ export default ({
                       outline: 'none',
                       cursor: 'pointer',
                       '&:hover': {
-                        backgroundColor: '$yellow5',
+                        backgroundColor: '$gray5',
                       },
                       '&:focus': {
-                        backgroundColor: '$yellow5',
+                        backgroundColor: '$gray5',
                       },
                     }}
                   >
-                    <Box css={{ color: '$yellow10' }}>
+                    <Box css={{ color: '$gray10' }}>
                       <FontAwesomeIcon icon={faEdit} />
                     </Box>
                     <Text>Edit Listing</Text>
@@ -578,10 +578,10 @@ export default ({
                       outline: 'none',
                       cursor: 'pointer',
                       '&:hover': {
-                        backgroundColor: '$yellow5',
+                        backgroundColor: '$gray5',
                       },
                       '&:focus': {
-                        backgroundColor: '$yellow5',
+                        backgroundColor: '$gray5',
                       },
                     }}
                   >
@@ -594,7 +594,7 @@ export default ({
                         }
                       >
                         <Flex align="center" css={{ gap: '$2' }}>
-                          <Box css={{ color: '$yellow10' }}>
+                          <Box css={{ color: '$gray10' }}>
                             <FontAwesomeIcon icon={faGasPump} />
                           </Box>
                           <Text color="error">Cancel Listing</Text>

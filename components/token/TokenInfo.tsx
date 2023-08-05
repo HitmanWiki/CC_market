@@ -36,8 +36,8 @@ export const TokenInfo: FC<Props> = ({ token, collection }) => {
   const CollectionAction = styled(Flex, {
     px: '$4',
     py: '$3',
-    color: '$yellow12',
-    background: '$yellow3',
+    color: '$gray12',
+    background: '$gray3',
     cursor: 'pointer',
     transition: 'background 0.25s ease-in',
     height: 40,
@@ -193,7 +193,7 @@ export const TokenInfo: FC<Props> = ({ token, collection }) => {
           <Flex justify="between" css={{ width: '100%' }}>
             <Text
               style="subtitle1"
-              css={{ color: '$yellow11', fontWeight: 'normal' }}
+              css={{ color: '$gray11', fontWeight: 'normal' }}
             >
               Contract Address
             </Text>
@@ -213,7 +213,7 @@ export const TokenInfo: FC<Props> = ({ token, collection }) => {
           <Flex justify="between" css={{ width: '100%' }}>
             <Text
               style="subtitle1"
-              css={{ color: '$yellow11', fontWeight: 'normal' }}
+              css={{ color: '$gray11', fontWeight: 'normal' }}
             >
               Chain
             </Text>
@@ -223,7 +223,7 @@ export const TokenInfo: FC<Props> = ({ token, collection }) => {
             <Text
               style="subtitle1"
               css={{
-                color: '$yellow11',
+                color: '$gray11',
                 fontWeight: 'normal',
                 whiteSpace: 'nowrap',
                 mr: '$2',
@@ -238,7 +238,7 @@ export const TokenInfo: FC<Props> = ({ token, collection }) => {
           <Flex justify="between" css={{ width: '100%' }}>
             <Text
               style="subtitle1"
-              css={{ color: '$yellow11', fontWeight: 'normal' }}
+              css={{ color: '$gray11', fontWeight: 'normal' }}
             >
               Token Standard
             </Text>
@@ -250,7 +250,7 @@ export const TokenInfo: FC<Props> = ({ token, collection }) => {
             <Flex align="center" css={{ gap: '$2' }}>
               <Text
                 style="subtitle1"
-                css={{ color: '$yellow11', fontWeight: 'normal' }}
+                css={{ color: '$gray11', fontWeight: 'normal' }}
               >
                 Creator Royalties
               </Text>
@@ -262,7 +262,7 @@ export const TokenInfo: FC<Props> = ({ token, collection }) => {
                 }
                 style={{ maxWidth: '210px' }}
               >
-                <Text css={{ color: '$yellow11' }}>
+                <Text css={{ color: '$gray11' }}>
                   <FontAwesomeIcon icon={faInfoCircle} width={16} height={16} />
                 </Text>
               </Tooltip>

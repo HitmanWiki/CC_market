@@ -25,7 +25,7 @@ const FullscreenMedia: FC<Props> = ({ token }) => {
 
   const trigger = (
     <Button
-      color="yellow3"
+      color="gray3"
       corners="circle"
       css={{
         position: 'absolute',
@@ -61,7 +61,7 @@ const FullscreenMedia: FC<Props> = ({ token }) => {
           >
             <DialogClose>
               <Button
-                color="yellow3"
+                color="gray3"
                 corners="circle"
                 css={{ position: 'absolute', right: 12, top: 12 }}
               >

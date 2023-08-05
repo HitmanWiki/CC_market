@@ -60,7 +60,7 @@ const AcceptBid: FC<Props> = ({
   )
 
   const trigger = (
-    <Button css={buttonCss} color="yellow3" disabled={disabled} {...buttonProps}>
+    <Button css={buttonCss} color="gray3" disabled={disabled} {...buttonProps}>
       {buttonChildren}
     </Button>
   )

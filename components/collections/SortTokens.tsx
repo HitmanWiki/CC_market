@@ -60,7 +60,7 @@ export const SortTokens: FC<Props> = ({ css }) => {
     <DropdownMenu.Root>
       <DropdownMenu.Trigger asChild>
         <Button
-          color="yellow3"
+          color="gray3"
           css={{
             ...css,
           }}

@@ -310,7 +310,7 @@ export const BatchListingsTableRow: FC<BatchListingsTableRowProps> = ({
             <>
               <Flex direction="column" align="center" css={{ gap: '$2' }}>
                 <Button
-                  color="yellow3"
+                  color="gray3"
                   corners="pill"
                   size="large"
                   css={{ minWidth: 'max-content', minHeight: 48, py: 14 }}
@@ -340,7 +340,7 @@ export const BatchListingsTableRow: FC<BatchListingsTableRowProps> = ({
               </Flex>
               <Flex direction="column" align="center" css={{ gap: '$2' }}>
                 <Button
-                  color="yellow3"
+                  color="gray3"
                   corners="pill"
                   size="large"
                   css={{ minWidth: 'max-content', minHeight: 48, py: 14 }}
@@ -458,7 +458,7 @@ export const BatchListingsTableRow: FC<BatchListingsTableRowProps> = ({
       </TableCell>
       <TableCell css={{ marginLeft: 'auto' }}>
         <Button
-          color="yellow3"
+          color="gray3"
           size="small"
           css={{ justifyContent: 'center', width: '44px', height: '44px' }}
           onClick={() =>

@@ -53,13 +53,13 @@ const SelectedAttributes: FC = () => {
           onClick={() => {
             removeParam(router, `attributes[${key}]`, value)
           }}
-          color="yellow4"
+          color="gray4"
           css={{ mr: '$4', mb: '24px' }}
           size="small"
         >
           <Text css={{ color: '$primary11' }}>{key}:</Text>
           <Text style="subtitle1">{value}</Text>
-          <Text css={{ color: '$yellow9' }}>
+          <Text css={{ color: '$gray9' }}>
             <FontAwesomeIcon icon={faClose} width="16" height="16" />
           </Text>
         </Button>

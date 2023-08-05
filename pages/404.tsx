@@ -12,7 +12,7 @@ const IndexPage: NextPage = () => {
         align="center"
         css={{ py: '200px', px: '$3', textAlign: 'center' }}
       >
-        <Box css={{ color: '$yellow11', mb: '30px' }}>
+        <Box css={{ color: '$gray11', mb: '30px' }}>
           <FontAwesomeIcon icon={faFolderOpen} size="2xl" />
         </Box>
         <Text style="body1" color="subtle" css={{ mb: '$1' }}>

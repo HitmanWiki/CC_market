@@ -36,14 +36,14 @@ export const ConfirmationModal: FC<Props> = ({
       onOpenChange={onOpenChange}
       overlayProps={{ style: { opacity: 0.7 } }}
     >
-      <Flex direction="column" css={{ p: 24, gap: '$2', background: '$yellow2' }}>
+      <Flex direction="column" css={{ p: 24, gap: '$2', background: '$gray2' }}>
         <Text style="subtitle1">{title}</Text>
         <Text style="body1" color="subtle">
           {message}
         </Text>
         <Flex css={{ gap: '$2', mt: '$4' }} justify="end">
           <Button
-            color="yellow3"
+            color="gray3"
             size="medium"
             onClick={() => {
               onConfirmed(true)

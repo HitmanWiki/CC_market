@@ -17,7 +17,7 @@ const ProgressBar: FC<Props> = ({ value, max, ...props }) => {
             borderRadius: 99999,
             flex: 1,
             background:
-              'linear-gradient(to left, $yellow8 50%, $primary9 50%) right',
+              'linear-gradient(to left, $gray8 50%, $primary9 50%) right',
             backgroundSize: '200% 100%',
             backgroundPosition: i + 1 <= value ? 'left' : 'right',
             transition: 'all 0.5s ease',

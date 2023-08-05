@@ -334,7 +334,7 @@ const BatchListings: FC<Props> = ({
     <Flex direction="column" css={{ gap: '$5', width: '100%' }}>
       <Flex align="center" css={{ gap: 24 }}>
         <Button
-          color="yellow3"
+          color="gray3"
           size="small"
           css={{ justifyContent: 'center', width: '44px', height: '44px' }}
           onClick={() => setShowListingPage(false)}
@@ -345,7 +345,7 @@ const BatchListings: FC<Props> = ({
       </Flex>
       <Flex
         justify="between"
-        css={{ border: '1px solid $yellow6', borderRadius: 8, p: 24 }}
+        css={{ border: '1px solid $gray6', borderRadius: 8, p: 24 }}
       >
         <Flex direction="column" css={{ gap: '$3' }}>
           <Text style="h6">Select Marketplaces</Text>
@@ -362,7 +362,7 @@ const BatchListings: FC<Props> = ({
                   css={{
                     border: isSelected
                       ? '1px solid $primary7'
-                      : '1px solid $yellow6',
+                      : '1px solid $gray6',
                     borderRadius: 8,
                     gap: '$2',
                     p: '$3',
@@ -387,7 +387,7 @@ const BatchListings: FC<Props> = ({
             {isLargeDevice ? (
               <Flex align="center" css={{ gap: '$3' }}>
                 <Button
-                  color="yellow3"
+                  color="gray3"
                   corners="pill"
                   size="large"
                   css={{ minWidth: 'max-content' }}
@@ -396,7 +396,7 @@ const BatchListings: FC<Props> = ({
                   Floor
                 </Button>
                 <Button
-                  color="yellow3"
+                  color="gray3"
                   corners="pill"
                   size="large"
                   css={{ minWidth: 'max-content' }}
@@ -528,7 +528,7 @@ const BatchListings: FC<Props> = ({
               right: 0,
               px: '$5',
               py: '$4',
-              borderTop: '1px solid $yellow7',
+              borderTop: '1px solid $gray7',
               backgroundColor: '$neutralBg',
             }}
           >
@@ -562,10 +562,10 @@ const BatchListings: FC<Props> = ({
           align="center"
           css={{ py: '$6', gap: '$4', width: '100%' }}
         >
-          <Text css={{ color: '$yellow11' }}>
+          <Text css={{ color: '$gray11' }}>
             <FontAwesomeIcon icon={faMagnifyingGlass} size="2xl" />
           </Text>
-          <Text css={{ color: '$yellow11' }}>No items selected</Text>
+          <Text css={{ color: '$gray11' }}>No items selected</Text>
         </Flex>
       )}
     </Flex>

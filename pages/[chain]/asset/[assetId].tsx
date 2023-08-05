@@ -157,7 +157,7 @@ const IndexPage: NextPage<Props> = ({ assetId, ssr }) => {
 
   const trigger = (
     <Button
-      color="yellow3"
+      color="gray3"
       size="small"
       css={{
         justifyContent: 'space-between',
@@ -282,7 +282,7 @@ const IndexPage: NextPage<Props> = ({ assetId, ssr }) => {
         >
           <Box
             css={{
-              backgroundColor: '$yellow3',
+              backgroundColor: '$gray3',
               borderRadius: 8,
               '@sm': {
                 button: {
@@ -425,7 +425,7 @@ const IndexPage: NextPage<Props> = ({ assetId, ssr }) => {
                   })
               }}
               disabled={isRefreshing}
-              color="yellow3"
+              color="gray3"
               size="xs"
               css={{ cursor: isRefreshing ? 'not-allowed' : 'pointer' }}
             >

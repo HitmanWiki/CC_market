@@ -87,10 +87,10 @@ export const ListingsTable: FC<Props> = ({
           align="center"
           css={{ py: '$6', gap: '$4', width: '100%' }}
         >
-          <Text css={{ color: '$yellow11' }}>
+          <Text css={{ color: '$gray11' }}>
             <FontAwesomeIcon icon={faTag} size="2xl" />
           </Text>
-          <Text css={{ color: '$yellow11' }}>No listings yet</Text>
+          <Text css={{ color: '$gray11' }}>No listings yet</Text>
         </Flex>
       ) : (
         <Flex direction="column" css={{ gap: '$4' }}>
@@ -194,7 +194,7 @@ const ListingTableRow: FC<ListingTableRowProps> = ({
             textStyle="h6"
           />
           {listing.price?.amount?.usd ? (
-            <Text style="body2" css={{ color: '$yellow11' }} ellipsify>
+            <Text style="body2" css={{ color: '$gray11' }} ellipsify>
               {formatDollar(listing.price?.amount?.usd)}
             </Text>
           ) : null}
@@ -207,7 +207,7 @@ const ListingTableRow: FC<ListingTableRowProps> = ({
                 px: '$2',
                 py: '$1',
                 ml: '$1',
-                backgroundColor: '$yellow2',
+                backgroundColor: '$gray2',
               }}
             >
               <Text style="subtitle2" color="subtle">
@@ -316,7 +316,7 @@ const ListingTableRow: FC<ListingTableRowProps> = ({
                             py: '$2',
                             minHeight: 36,
                           }}
-                          color="yellow3"
+                          color="gray3"
                         >
                           <FontAwesomeIcon
                             color="#697177"
@@ -338,7 +338,7 @@ const ListingTableRow: FC<ListingTableRowProps> = ({
                           py: '$2',
                           minHeight: 36,
                         }}
-                        color="yellow3"
+                        color="gray3"
                       >
                         Cancel
                       </Button>

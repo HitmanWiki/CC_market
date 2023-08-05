@@ -19,12 +19,12 @@ export const ViewToggle: FC<Props> = ({ itemView, setItemView }) => {
       css={{ flexShrink: 0 }}
     >
       <ToggleGroupItem value="list" css={{ width: 48, height: 48 }}>
-        <Box css={{ color: '$yellow12' }}>
+        <Box css={{ color: '$gray12' }}>
           <FontAwesomeIcon icon={faList} width={16} height={16} />
         </Box>
       </ToggleGroupItem>
       <ToggleGroupItem value="grid" css={{ width: 48, height: 48 }}>
-        <Box css={{ color: '$yellow12' }}>
+        <Box css={{ color: '$gray12' }}>
           <FontAwesomeIcon icon={faTableCellsLarge} width={16} height={16} />
         </Box>
       </ToggleGroupItem>

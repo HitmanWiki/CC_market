@@ -61,7 +61,7 @@ const PortfolioSortDropdown: FC<Props> = ({ option, onOptionSelected }) => {
     <DropdownMenu.Root>
       <DropdownMenu.Trigger asChild>
         <Button
-          color="yellow3"
+          color="gray3"
           css={{
             px: '14px',
             justifyContent: 'space-between',
@@ -80,7 +80,7 @@ const PortfolioSortDropdown: FC<Props> = ({ option, onOptionSelected }) => {
           <Text style="body1">{nameForSortingOption(option, false)}</Text>
           <Box
             css={{
-              color: '$yellow10',
+              color: '$gray10',
               transition: 'transform',
               '[data-state=open] &': { transform: 'rotate(180deg)' },
             }}

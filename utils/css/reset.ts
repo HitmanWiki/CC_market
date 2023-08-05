@@ -270,12 +270,12 @@ Prevent resizing textareas horizontally by default.
 
   /*
 1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
-2. Set the default placeholder color to the user's configured yellow 400 color.
+2. Set the default placeholder color to the user's configured gray 400 color.
 */
 
   'input::placeholder, textarea::placeholder': {
     opacity: 1 /* 1 */,
-    // color: theme('colors.yellow.400', #9ca3af), /* 2 */
+    // color: theme('colors.gray.400', #9ca3af), /* 2 */
   },
 
   /*

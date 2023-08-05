@@ -4,7 +4,7 @@ import { styled } from 'stitches.config'
 const TabsList = styled(TabsPrimitive.List, {
   display: 'flex',
   gap: '$5',
-  borderBottom: '1px solid $yellow5',
+  borderBottom: '1px solid $gray5',
   mt: '$5',
   mb: '$4',
 })

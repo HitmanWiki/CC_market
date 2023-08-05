@@ -175,10 +175,10 @@ export const TokenTable = forwardRef<TokenTableRef, Props>(
             align="center"
             css={{ py: '$6', gap: '$4', width: '100%' }}
           >
-            <Text css={{ color: '$yellow11' }}>
+            <Text css={{ color: '$gray11' }}>
               <FontAwesomeIcon icon={faMagnifyingGlass} size="2xl" />
             </Text>
-            <Text css={{ color: '$yellow11' }}>No items found</Text>
+            <Text css={{ color: '$gray11' }}>No items found</Text>
           </Flex>
         ) : (
           <Flex direction="column" css={{ width: '100%' }}>
@@ -334,7 +334,7 @@ const TokenTableRow: FC<TokenTableRowProps> = ({
         align="start"
         css={{
           gap: '$3',
-          borderBottom: '1px solid $yellow3',
+          borderBottom: '1px solid $gray3',
           py: '$3',
           width: '100%',
           overflow: 'hidden',
@@ -449,8 +449,8 @@ const TokenTableRow: FC<TokenTableRowProps> = ({
                 maxWidth: '300px',
                 justifyContent: 'center',
                 px: '20px',
-                backgroundColor: '$yellow3',
-                color: '$yellow12',
+                backgroundColor: '$gray3',
+                color: '$gray12',
                 '&:hover': {
                   backgroundColor: '#f1c232',
                 },
@@ -462,7 +462,7 @@ const TokenTableRow: FC<TokenTableRowProps> = ({
             modal={false}
             trigger={
               <Button
-                color="yellow3"
+                color="gray3"
                 size="xs"
                 css={{
                   width: 44,
@@ -529,7 +529,7 @@ const TokenTableRow: FC<TokenTableRowProps> = ({
               <Flex align="center" css={{ gap: '$2' }}>
                 <Box
                   css={{
-                    color: '$yellow10',
+                    color: '$gray10',
                     animation: isRefreshing
                       ? `${spin} 1s cubic-bezier(0.76, 0.35, 0.2, 0.7) infinite`
                       : 'none',
@@ -557,14 +557,14 @@ const TokenTableRow: FC<TokenTableRowProps> = ({
                       outline: 'none',
                       cursor: 'pointer',
                       '&:hover': {
-                        backgroundColor: '$yellow5',
+                        backgroundColor: '$gray5',
                       },
                       '&:focus': {
-                        backgroundColor: '$yellow5',
+                        backgroundColor: '$gray5',
                       },
                     }}
                   >
-                    <Box css={{ color: '$yellow10' }}>
+                    <Box css={{ color: '$gray10' }}>
                       <FontAwesomeIcon icon={faEdit} />
                     </Box>
                     <Text>Edit Listing</Text>
@@ -593,10 +593,10 @@ const TokenTableRow: FC<TokenTableRowProps> = ({
                       outline: 'none',
                       cursor: 'pointer',
                       '&:hover': {
-                        backgroundColor: '$yellow5',
+                        backgroundColor: '$gray5',
                       },
                       '&:focus': {
-                        backgroundColor: '$yellow5',
+                        backgroundColor: '$gray5',
                       },
                     }}
                   >
@@ -609,7 +609,7 @@ const TokenTableRow: FC<TokenTableRowProps> = ({
                         }
                       >
                         <Flex align="center" css={{ gap: '$2' }}>
-                          <Box css={{ color: '$yellow10' }}>
+                          <Box css={{ color: '$gray10' }}>
                             <FontAwesomeIcon icon={faGasPump} />
                           </Box>
                           <Text color="error">Cancel</Text>
@@ -834,7 +834,7 @@ const TokenTableRow: FC<TokenTableRowProps> = ({
               />
             </Flex>
             {token?.token?.topBid?.price?.amount?.usd ? (
-              <Text style="subtitle3" css={{ color: '$yellow11' }} ellipsify>
+              <Text style="subtitle3" css={{ color: '$gray11' }} ellipsify>
                 {formatDollar(
                   token?.token?.topBid?.price?.amount?.usd as number
                 )}
@@ -881,8 +881,8 @@ const TokenTableRow: FC<TokenTableRowProps> = ({
               token={token as ReturnType<typeof useTokens>['data'][0]}
               buttonCss={{
                 px: '42px',
-                backgroundColor: '$yellow3',
-                color: '$yellow12',
+                backgroundColor: '$gray3',
+                color: '$gray12',
                 '&:hover': {
                   backgroundColor: '#f1c232',
                 },
@@ -894,7 +894,7 @@ const TokenTableRow: FC<TokenTableRowProps> = ({
               modal={false}
               trigger={
                 <Button
-                  color="yellow3"
+                  color="gray3"
                   size="xs"
                   css={{ width: 44, justifyContent: 'center' }}
                 >
@@ -956,7 +956,7 @@ const TokenTableRow: FC<TokenTableRowProps> = ({
                 <Flex align="center" css={{ gap: '$2' }}>
                   <Box
                     css={{
-                      color: '$yellow10',
+                      color: '$gray10',
                       animation: isRefreshing
                         ? `${spin} 1s cubic-bezier(0.76, 0.35, 0.2, 0.7) infinite`
                         : 'none',
@@ -984,14 +984,14 @@ const TokenTableRow: FC<TokenTableRowProps> = ({
                         outline: 'none',
                         cursor: 'pointer',
                         '&:hover': {
-                          backgroundColor: '$yellow5',
+                          backgroundColor: '$gray5',
                         },
                         '&:focus': {
-                          backgroundColor: '$yellow5',
+                          backgroundColor: '$gray5',
                         },
                       }}
                     >
-                      <Box css={{ color: '$yellow10' }}>
+                      <Box css={{ color: '$gray10' }}>
                         <FontAwesomeIcon icon={faEdit} />
                       </Box>
                       <Text>Edit Listing</Text>
@@ -1020,10 +1020,10 @@ const TokenTableRow: FC<TokenTableRowProps> = ({
                         outline: 'none',
                         cursor: 'pointer',
                         '&:hover': {
-                          backgroundColor: '$yellow5',
+                          backgroundColor: '$gray5',
                         },
                         '&:focus': {
-                          backgroundColor: '$yellow5',
+                          backgroundColor: '$gray5',
                         },
                       }}
                     >
@@ -1036,7 +1036,7 @@ const TokenTableRow: FC<TokenTableRowProps> = ({
                           }
                         >
                           <Flex align="center" css={{ gap: '$2' }}>
-                            <Box css={{ color: '$yellow10' }}>
+                            <Box css={{ color: '$gray10' }}>
                               <FontAwesomeIcon icon={faGasPump} />
                             </Box>
                             <Text color="error">Cancel</Text>

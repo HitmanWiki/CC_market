@@ -51,7 +51,7 @@ const CollectionsTimeDropdown: FC<Props> = ({
     <DropdownMenu.Root>
       <DropdownMenu.Trigger asChild>
         <Button
-          color="yellow3"
+          color="gray3"
           css={{
             px: '14px',
             justifyContent: 'space-between',
@@ -65,7 +65,7 @@ const CollectionsTimeDropdown: FC<Props> = ({
           <Text style="body1">{nameForSortingOption(option, compact)}</Text>
           <Box
             css={{
-              color: '$yellow10',
+              color: '$gray10',
               transition: 'transform',
               '[data-state=open] &': { transform: 'rotate(180deg)' },
             }}
